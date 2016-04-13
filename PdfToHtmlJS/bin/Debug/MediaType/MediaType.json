@@ -1,0 +1,79 @@
+[
+	{
+		"id": "png",
+		"mediaType": "image/png"
+	},
+	{
+		"id": "jpeg",
+		"mediaType": "image/jpeg"
+	},
+	{
+		"id": "json",
+		"mediaType": "application/json"
+	},
+	{
+		"id": "txt",
+		"mediaType": "application/octet-stream"
+	},
+	{
+		"id": "css",
+		"mediaType": "text/css"
+	},
+	{
+		"id": "js",
+		"mediaType": "application/javascript"
+	},
+	{
+		"id": "html",
+		"mediaType": "text/html"
+	},
+	{
+		"id": "mp4",
+		"mediaType": "video/mp4"
+	},
+	{
+		"id": "svg",
+		"mediaType": "image/svg+xml"
+	},
+	{
+		"id": "gif",
+		"mediaType": "image/gif"
+	},
+	{
+		"id": "ttf",
+		"mediaType": "application/octet-stream"
+	},
+	{
+		"id": "woff",
+		"mediaType": "application/font-woff"
+	},
+	{
+		"id": "otf.woff",
+		"mediaType": "application/font-woff"
+	},
+	{
+		"id": "xhtml",
+		"mediaType": "application/xhtml+xml"
+	},
+	{
+		"id": "ncx",
+		"mediaType": "application/x-dtbncx+xml"
+	},
+	{
+		"id": "jpg",
+		"mediaType": "image/jpeg"
+	},
+	{
+		"id": "s9ml",
+		"mediaType": "application/xml"
+	},
+	{
+		"id": "otf",
+		"mediaType": "font/opentype"
+	},
+	{
+		"id": "eot",
+		"mediaType": "application/octet-stream"
+	}
+	
+]

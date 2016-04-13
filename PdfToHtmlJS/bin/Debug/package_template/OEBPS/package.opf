@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid">
+   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <dc:identifier id="uid">code.google.com.epub-samples.epub30-spec</dc:identifier>
+      <dc:title>EPUB 3.0 Specification</dc:title>
+      <dc:creator>EPUB 3 Working Group</dc:creator>
+      <dc:language>en</dc:language>
+      <meta property="dcterms:modified">2012-02-27T16:38:35Z</meta>
+	  <meta property="rendition:layout">pre-paginated</meta>
+   </metadata>
+   <manifest>
+     <item properties="nav" id="nav" href="toc.xhtml" media-type="application/xhtml+xml">
+    </item>
+	 <item id="ncx_toc" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+   </manifest>
+   <spine >
+     
+   </spine>
+</package>
