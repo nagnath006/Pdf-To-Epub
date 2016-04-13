@@ -48,7 +48,6 @@ namespace PdfToHtmlJS
             if (!string.IsNullOrEmpty(cssContent))
             {
                 string[] parts = cssContent.Split('}');
-
                 if (parts != null && parts.Length > 0)
                 {
                     for (int i = 0; i < parts.Length; i++)
@@ -56,7 +55,6 @@ namespace PdfToHtmlJS
                         if (!parts[i].ToLower().Contains(className.ToLower()))
                         {
                             styleText = styleText + parts[i] + "}" ;
-                           
                         }
                         else
                         { 
@@ -68,46 +66,6 @@ namespace PdfToHtmlJS
             }
             return cssContent;
         }
-
-        //public static string CheckWellFormed(string parts)
-        //{
-        //    string[] things = parts.Split('}');
-        //    var stack = new Stack<char>();
-        //    // dictionary of matching starting and ending pairs
-        //    var allowedChars = new Dictionary<char, char>() { { '(', ')' }, { '[', ']' }, { '{', '}' } };
-
-        //    var wellFormated = true;
-        //    foreach (var chr in parts)
-        //    {
-        //        if (allowedChars.ContainsKey(chr))
-        //        {
-        //            
-        //            stack.Push(chr);
-        //        }
-        //        
-        //        else if (allowedChars.ContainsValue(chr))
-        //        {
-        //            // make sure something to pop if not then know it's not well formated
-        //            wellFormated = stack.Any();
-        //            if (wellFormated)
-        //            {
-        //                r
-        //                var startingChar = stack.Pop();
-        //                // check it is in the dictionary
-        //                wellFormated = allowedChars.Contains(new KeyValuePair<char, char>(startingChar, chr));
-        //            }
-        //            // if not wellformated exit loop no need to continue
-        //            if (!wellFormated)
-        //            {
-        //                break;
-        //            }
-        //        }
-        //    }
-        //    return parts;
-
-
-        //}
-    
 
 
         /// <summary>
